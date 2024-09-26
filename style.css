@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --a-color:white;
+    --b-color:black;
+}
+
+.dark-theme{
+    --a-color:rgb(0, 0, 0);
+    --b-color:rgb(255, 255, 255);
+        
+
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: var(--a-color);
+    position: relative;
+    font-family: sans-serif;
+}
+.logo{
+    width:100px ;
+    cursor: pointer;
+}
+
+
+
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul-class{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-right:40px;
+    margin-top: 100px;
+    color: var(--b-color);
+}
+ul li a:hover{
+    color:red;
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+.info{
+    margin-left:8% ;
+    margin-top:15%;
+}
+.info h1{
+    font-size: 70px;
+    color: var(--b-color);
+    margin-bottom: 20px;
+}
+span{
+    color:red;
+
+}
+.info p{
+    color: var(--b-color);
+    line-height: 22px;
+}
+.info a{
+    text-decoration: none;
+    padding: 10px 18px;
+    background:var(--b-color);;
+    color:var(--a-color);
+    display: inline-block;
+    margin: 30px 0;
+    border: 1px solid var(--b-color);;
+    border-radius: 6px;
+}
+
+.info a:hover{
+    color:var(--b-color);
+    background-color:var(--a-color);
+    border: 1px solid --b-color;
+}
+
+
+
+
+
+
+
+
+.img-box{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom:0;
+    right:100px;
+}
+.img-box:hover .back-img{
+    bottom:40px;
+}
+.img-box:hover .main-img{
+    left:54%;
+}
+.img-box img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+
+
+
+
+
+
+.soial-links{
+    margin: 8%;
+    margin-top: 100px;
+}
+.soial-links a{
+    font-size: 30px;
+    color: var(--b-color);
+    margin-right: 20px;
+}
+.soial-links a:hover{
+    color:red;
+
+}
+
+
+
+
+
+
+
+
